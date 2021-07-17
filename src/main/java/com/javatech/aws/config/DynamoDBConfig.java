@@ -20,10 +20,10 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 @EnableWebMvc
 public class DynamoDBConfig {
 	
-	public static final String SERVICE_ENDPOINT = "dynamodb.ap-south-1.amazonaws.com";
-    public static final String REGION = "ap-south-1";
-    public static final String ACCESS_KEY = "AKIAX5SBXPHJLGJ2AM46";
-    public static final String SECRET_KEY = "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";
+	public static final String SERVICE_ENDPOINT = "";
+    public static final String REGION = "";
+    public static final String ACCESS_KEY = "";
+    public static final String SECRET_KEY = "";
 	@Bean
 	public DynamoDBMapper mapper () {
 		return new DynamoDBMapper(amazonDynamoDBConfig());
